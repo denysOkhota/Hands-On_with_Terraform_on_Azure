@@ -19,7 +19,7 @@ provider "azurerm" {
   skip_provider_registration = true
 }
 
-resource "azurerm_resource_group" "rg"{
+resource "azurerm_resource_group" "rg" {
   name     = "813-40ca82e1-hands-on-with-terraform-on-azure"
   location = "westus"
 }
